@@ -12,5 +12,18 @@ Dentro de la carpeta PLL se encuentran los archivos necesarios para la ejecució
 * **imagen_1.pgm** Contiene el esquema del circuito PLL en un formato soportado por la biblioteca *Tkinter*.
 * **imagen_2.pgm** Contiene el esquema del par emisor-receptor en un formato soportado por la biblioteca *Tkinter*.
 
-Fuera de la carpeta PLL se encuentran archivos "borrador" con algunos ejemplos de juguete.
+Para poder correr el simular es necesario ejecutar directamente de la terminal el archivo GUI.py sin argumentos extras. Para su correcto funcionamiento requiere tener instalado Python desde la versión 3.7 en adelante, y los paquetes
 
+* numpy 1.19.1 
+* scipy 1.5.2
+* matplotlib 3.0.0 en adelante
+* tkinter (viene integrado con Python)
+* functools (viene integrado con Python)
+
+En orden de instalar cada uno de los paquetes se puede usar la herramienta PIP ([link](https://pypi.org/project/pip/)), corriendo el comando
+
+**python -m pip install [nombre_paquete]**
+
+Para actualizarlos se puede usar
+
+**python -m pip install --upgrade [nombre_paquete]**.
