@@ -27,3 +27,5 @@ En orden de instalar cada uno de los paquetes se puede usar la herramienta PIP (
 Para actualizarlos se puede usar
 
 **python -m pip install --upgrade [nombre_paquete]**.
+
+Una explicación breve sobre como usar la interfaz se encuentra disponible en [link](drive.google.com/file/d/1XSEQCBfpqRqV28rH_j_1LfWprHhc2HZf/view?usp=sharing).
